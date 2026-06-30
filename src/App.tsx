@@ -40,7 +40,7 @@ const TEAM = [
   { name: "Pranjal", role: "Chief Operating Officer" },
   { name: "Daya", role: "Chief Marketing Officer" },
   { name: "Amaliya", role: "Chief Marketing Officer" },
-  { name: "Augestine", role: "Chief Technical Officer" },
+  { name: "Augustine", role: "Chief Technical Officer" },
   { name: "Aysha", role: "Document Writer" },
 ];
 

@@ -1,0 +1,61 @@
+:root {
+  --background: #ffffff;
+  --background-deep: #f5efe4;
+  --ink: #11100d;
+  --muted: #716a5d;
+  --muted-2: #9b8f7b;
+  --line: rgba(17, 16, 13, 0.14);
+  --panel: rgba(255, 252, 246, 0.78);
+  --panel-strong: rgba(255, 252, 246, 0.94);
+  --black: #000000;
+  --white: #ffffff;
+  --gold: #b89046;
+  --leaf: #365744;
+  --danger: #963d2a;
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--background);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--background);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+@keyframes fade-rise {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-rise {
+  animation: fade-rise 0.8s ease-out both;
+}
+
+.animate-fade-rise-delay {
+  animation: fade-rise 0.8s ease-out 0.2s both;
+}
+
+.animate-fade-rise-delay-2 {
+  animation: fade-rise 0.8s ease-out 0.4s both;
+}
